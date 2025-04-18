@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "zhang weili" => "zhangweili@appicplay.com" }
   spec.platform     = :ios
-  spec.source       = { :http => "oss://apicmob-sdk/Mediation/KASDK/APSDK.v#{spec.version}.zip"}
+  spec.source       = { :http => "https://apicmob-sdk/Mediation/APSDK/APSDK.v#{spec.version}.zip"}
   spec.requires_arc = true
   spec.libraries = "c++", "z", "resolv.9"
   spec.vendored_frameworks = "APSDK.framework"
