@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "zhang weili" => "zhangweili@appicplay.com" }
   spec.platform     = :ios
-  spec.source       = { :http => "https://imgsdk.apicmob.com/Mediation/FBAudienceNetwork/FBAudienceNetwork.v#{spec.version}.zip"}
+  spec.source       = { :http =>        "https://imgsdk.apicmob.com/Mediation/AppicFBAudienceNetwork/AppicFBAudienceNetwork.v#{spec.version}.zip"}
   spec.requires_arc = true
   spec.vendored_frameworks = "FBSDKCoreKit_Basics.xcframework", "FBAudienceNetwork.xcframework"
   spec.ios.deployment_target = '9.0'
