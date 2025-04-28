@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.source       = { :http => "https://imgsdk.apicmob.com/Mediation/APSDK/APSDK_IOS_v#{spec.version}_76c2f83e-3a7a-4bce-91a6-39ad61328180_1678958248_OL.zip"}
   spec.requires_arc = true
-  spec.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '13.0'
   spec.libraries = "c++", "z", "resolv.9"
   spec.vendored_frameworks = "APSDK.framework"
 
